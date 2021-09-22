@@ -1,3 +1,7 @@
+// pegar componente por ID
+const transactionsUl = document.querySelector('#transactions')
+
+console.log(transactionsUl)
 
 // declaracao de um objeto literal  
 const dummyTransactions = (
