@@ -71,3 +71,13 @@ const init = () => { // inicializa todas as funções da pagina
 }
 
 init();
+
+form.addEventListener('submit', event =>{
+    event.preventDefault();
+
+    if(inputTransactionName.value.trim() === "" && 
+            inputTransactionAmount.value.trim() === ""){
+        alert('disparou o evento');
+        return
+    }
+}); 
